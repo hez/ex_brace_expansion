@@ -2,12 +2,14 @@ defmodule ExBraceExpansion.Mixfile do
   use Mix.Project
 
   def project do
-    [app: :ex_brace_expansion,
-     version: "0.0.2",
-     elixir: "~> 1.0",
-     description: description,
-     package: package,
-     deps: deps]
+    [
+      app: :ex_brace_expansion,
+      version: "0.0.2",
+      elixir: "~> 1.0",
+      description: description,
+      package: package,
+      deps: deps
+    ]
   end
 
   # Configuration for the OTP application
@@ -28,8 +30,7 @@ defmodule ExBraceExpansion.Mixfile do
   # Type `mix help deps` for more examples and options
   defp deps do
     [
-      {:ex_doc, "~> 0.7", only: :dev},
-      {:markdown, github: "devinus/markdown"}
+      {:ex_doc, "~> 0.7", only: :dev}
     ]
   end
 
