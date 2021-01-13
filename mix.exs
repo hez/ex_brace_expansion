@@ -1,10 +1,12 @@
 defmodule ExBraceExpansion.Mixfile do
   use Mix.Project
 
+  @version "0.0.3"
+
   def project do
     [
       app: :ex_brace_expansion,
-      version: "0.0.2",
+      version: @version,
       elixir: "~> 1.0",
       description: description,
       package: package,
